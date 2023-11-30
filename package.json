@@ -1,0 +1,31 @@
+{
+  "name": "vuetify-blocks",
+  "version": "0.0.0",
+  "scripts": {
+    "lint": "eslint . --fix --ignore-path .gitignore",
+    "story:dev": "histoire dev"
+  },
+  "peerDependencies": {
+    "vue": "^3.2.0",
+    "vuetify": "^3.0.0"
+  },
+  "devDependencies": {
+    "@babel/types": "^7.21.4",
+    "@histoire/plugin-vue": "^0.17.5",
+    "@mdi/js": "^7.3.67",
+    "@types/node": "^18.15.0",
+    "@vitejs/plugin-vue": "^4.0.0",
+    "@vue/eslint-config-typescript": "^11.0.0",
+    "eslint": "^8.0.0",
+    "eslint-plugin-vue": "^9.0.0",
+    "histoire": "^0.17.5",
+    "sass": "^1.69.5",
+    "typescript": "^5.0.0",
+    "unplugin-auto-import": "^0.16.7",
+    "unplugin-fonts": "^1.0.3",
+    "unplugin-vue-components": "^0.25.2",
+    "vite": "^4.2.0",
+    "vite-plugin-vuetify": "^1.0.0",
+    "vue-tsc": "^1.2.0"
+  }
+}

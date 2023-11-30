@@ -1,0 +1,4 @@
+/* @forward 'vuetify/settings'  with (
+    $card-title-font-size: map-deep-get(settings.$typography, 'h6', 'size'),
+    $card-title-padding: .5rem 1rem
+); */
